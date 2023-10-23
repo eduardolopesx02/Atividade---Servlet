@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>ConcatenarServlet</servlet-name>
+    <servlet-class>com.example.ConcatenarServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ConcatenarServlet</servlet-name>
+    <url-pattern>/concatenarServlet</url-pattern>
+</servlet-mapping>

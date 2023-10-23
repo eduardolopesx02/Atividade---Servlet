@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Idade</title>
+</head>
+<body>
+    <h1>Calculadora de Idade</h1>
+    <form action="idadeServlet" method="get">
+        Ano de Nascimento: <input type="text" name="anoNascimento" required><br>
+        Já fez aniversário este ano? 
+        <input type="radio" name="fezAniversario" value="sim" checked> Sim
+        <input type="radio" name="fezAniversario" value="nao"> Não
+        <br>
+        <input type="submit" value="Calcular Idade">
+    </form>
+</body>
+</html>

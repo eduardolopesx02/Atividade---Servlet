@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>IdadeServlet</servlet-name>
+    <servlet-class>com.example.IdadeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>IdadeServlet</servlet-name>
+    <url-pattern>/idadeServlet</url-pattern>
+</servlet-mapping>
